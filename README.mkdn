@@ -1,4 +1,6 @@
 <div align="center">
+<img src="https://github.com/dotOS-Reloaded/manifest/blob/dot-n/dotlogo.png" >
+</br>
 <h1>dotOS Reloaded</h1>
 </br>
 <strong><i> The g'old dotOS Nougat we know - Now with more up to date patches! </i></strong>
