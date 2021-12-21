@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r36" />
 
+  <remote  name="dot-reload"
+           fetch="https://github.com/dotOS-Reloaded"
+           revision="dot-n" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
@@ -23,7 +27,7 @@
      revision="dot-n" />
   <!-- AOSP Projects -->
 
-  <project path="build" name="android_build" remote="dot">
+  <project path="build" name="android_build" remote="dot-reload">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
