@@ -26,7 +26,7 @@ Credits
 
 To initialize your local repository using your trees, use a command like this:  
 ```
-repo init --depth=1 -u git://github.com/dotOS-Reloaded/android.git -b dot-n
+repo init --depth=1 -u git://github.com/dotOS-Reloaded/manifest.git -b dot-n
 ```
 Then to sync up:
 ```
